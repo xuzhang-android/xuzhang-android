@@ -36,41 +36,31 @@
 
 ### 🧱 [ABK · AnyBase Kernel](https://github.com/xingguangcuican6666/ABK)
 
-> **C · Python · Flutter · GitHub Actions**
->
-> GKI 内核构建工具链（AnyBase Kernel）。提交 5 项修复：复用工作流的输入名错误、CLI 的 XDG 配置目录解析与旧配置迁移提示、桌面端 LTS 组合不可达、fork PR 上 macOS arm64 矩阵腿拿不到 runner、manifest 重写吞掉注释。
+> AnyBase Kernel. To build GKI with your any idea!
 
 ---
 
 ### 🧩 [KernelSU](https://github.com/tiann/KernelSU)
 
-> **C · Rust · Python · 构建与打包**
->
-> Android root 方案（GKI / LKM 双模式）。提交 4 项修复：通知脚本读取 `head_commit` 的键名错误、注入 `libksud.so` 不跟随 APK 打包方式、build-tools 预发布版本排在正式版之前、repack 失败会先删掉上一次的成品。
+> A Kernel based root solution for Android.
 
 ---
 
-### 🧩 [meow-api](https://github.com/xingguangcuican6666/meow-api)
+### 🧩 [meow-api](https://github.com/xingguangcuican6666/meow-api-ach)
 
-> **Go · React**
->
-> AI 模型网关（new-api 下游）。提交 3 项修复：前端查询缓存键冲突、渠道调度的冷却与熔断绕过、OAuth refresh token 归属校验顺序。
+> A unified AI model hub for aggregation & distribution. It supports cross-converting various LLMs into OpenAI-compatible, Claude-compatible, or Gemini-compatible formats. A centralized gateway for personal and enterprise model management. 🍥
 
 ---
 
 ### 🛠 [DeviceToolbox](https://github.com/xuzhang-android/DeviceToolbox)
 
-> **Kotlin · C++ · Zygisk**
->
-> 自研 Android 机型伪装工具箱：系统级属性改写 + Zygisk 逐应用伪装。
+> Android 机型伪装工具箱：系统级属性改写 + Zygisk 逐应用伪装（App + 原生模块）
 
 ---
 
-### 🧪 [NyaSU](https://github.com/xuzhang-android/NyaSU) ／ [KernelSU](https://github.com/xuzhang-android/KernelSU) fork
+### 🧪 [NyaSU](https://github.com/xuzhang-android/NyaSU)
 
-> **C · Kotlin · Rust · Python**
->
-> 在 KernelSU 生态上做实验：函数级 hook 生成器（构建期产出可 `git apply` 的补丁）、模块化内核改动合并。
+> A Kernel based root solution for Android.
 
 ---
 
